@@ -12,6 +12,7 @@
 		943ED49F2011204C00F10ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943ED49D2011204C00F10ABD /* Main.storyboard */; };
 		943ED4A12011204C00F10ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943ED4A02011204C00F10ABD /* Assets.xcassets */; };
 		943ED4A42011204C00F10ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943ED4A22011204C00F10ABD /* LaunchScreen.storyboard */; };
+		943ED4AC2011219000F10ABD /* UserDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 943ED4AB2011219000F10ABD /* UserDetails.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		943ED4A02011204C00F10ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943ED4A32011204C00F10ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		943ED4A52011204C00F10ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943ED4AB2011219000F10ABD /* UserDetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserDetails.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		943ED4982011204B00F10ABD /* CallbacksAndMultithreading */ = {
 			isa = PBXGroup;
 			children = (
+				943ED4AB2011219000F10ABD /* UserDetails.json */,
 				943ED4992011204B00F10ABD /* AppDelegate.swift */,
 				943ED49B2011204B00F10ABD /* ViewController.swift */,
 				943ED49D2011204C00F10ABD /* Main.storyboard */,
-				943ED4A02011204C00F10ABD /* Assets.xcassets */,
 				943ED4A22011204C00F10ABD /* LaunchScreen.storyboard */,
 				943ED4A52011204C00F10ABD /* Info.plist */,
+				943ED4A02011204C00F10ABD /* Assets.xcassets */,
 			);
 			path = CallbacksAndMultithreading;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				943ED4A42011204C00F10ABD /* LaunchScreen.storyboard in Resources */,
+				943ED4AC2011219000F10ABD /* UserDetails.json in Resources */,
 				943ED4A12011204C00F10ABD /* Assets.xcassets in Resources */,
 				943ED49F2011204C00F10ABD /* Main.storyboard in Resources */,
 			);
